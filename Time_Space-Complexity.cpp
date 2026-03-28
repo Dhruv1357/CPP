@@ -8,6 +8,7 @@ int main()
     {
         a = a + rand();  
     }
+    
     for (int j = 0; j < M; j++) {
         b = b + rand();
     }
