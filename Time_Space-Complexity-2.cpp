@@ -11,6 +11,7 @@ int main()
             a = a + j;
         }
     }
+    
     for (int k = 0; k < N; k++)
     {
         b = b + k;
