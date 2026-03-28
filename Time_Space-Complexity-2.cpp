@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
     int a = 0, b = 0, N, M;
+    
     for (int i = 0; i < N; i++)
     {
         for (int j = 0; j < N; j++)
@@ -11,7 +12,7 @@ int main()
             a = a + j;
         }
     }
-    
+
     for (int k = 0; k < N; k++)
     {
         b = b + k;
