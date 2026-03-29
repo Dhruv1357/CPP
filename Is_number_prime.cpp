@@ -25,5 +25,6 @@ int main()
         cout << "Not prime";
         return 0;
     }
+    
     cout << "Prime";
 }
