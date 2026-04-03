@@ -11,5 +11,6 @@ int main()
         i /= 2;
     }
 }
+
 // Time Complexity - O(log(N))
 // Space Cpmplexity - O(1)
