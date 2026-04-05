@@ -25,11 +25,11 @@ int main()
             }
         }
     }
+
     else if (n == 1)
     {
         cout << "Not prime";
         return 0;
     }
-    
     cout << "Prime";
 }
