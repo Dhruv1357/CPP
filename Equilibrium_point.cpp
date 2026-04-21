@@ -24,7 +24,9 @@ int findEquilibrium(vector<int> &arr)
         totalSum -= arr[i];
 
         if (lsum == (totalSum - arr[i + 1]))
+        {
             return i + 1;
+        }
     }
 
     return -1;
