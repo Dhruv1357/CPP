@@ -34,5 +34,4 @@ int main()
     int num;
     cin>>num;
     cout << evenlyDivides(num);
-
 }
