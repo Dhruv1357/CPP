@@ -7,7 +7,8 @@ Summary -  Write a function to count the number of digits in n that evenly divid
 #include <iostream>
 using namespace std;
 
-int evenlyDivides(int n) {
+int evenlyDivides(int n) 
+{
     int count=0,push,num = n;
     vector<int> a;
     
