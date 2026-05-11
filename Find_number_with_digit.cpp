@@ -23,7 +23,7 @@ vector<int> solve(int n, int d)
     }
     
     if(arr.size() == 0)
-    arr.push_back(-1);
+        arr.push_back(-1);
     
     return arr;
 }
