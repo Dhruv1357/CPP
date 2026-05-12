@@ -1,3 +1,8 @@
+/*
+Problem - Sum of digit modified
+Platform - GeeksForGeeks
+Summary - Finding if the sum of digit is 1 or not.
+*/
 #include <iostream>
 using namespace std;
 
