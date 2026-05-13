@@ -24,6 +24,7 @@ vector<int> pronicNumbers(int N)
         }
         return v;
     }
+    
     int main()
     {
         int num;
