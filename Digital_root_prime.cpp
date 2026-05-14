@@ -43,6 +43,7 @@ int digitalRoot(int N)
     else
         return 0;
 }
+
 int main()
 {
     int num;
