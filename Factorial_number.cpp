@@ -7,7 +7,8 @@ Summary - Finding if the given number is a factorial or not.
 #include <iostream>
 using namespace std;
 
-int isFactorial(int N) {
+int isFactorial(int N) 
+{
 
         int product = 1;
         
