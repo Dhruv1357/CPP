@@ -9,7 +9,6 @@ using namespace std;
 
 bool isPrime(int n)
 {
-
     if (n > 1)
     {
         for (int i = 2; i * i <= n; i++)
