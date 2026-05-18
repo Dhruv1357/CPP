@@ -16,6 +16,7 @@ bool isSorted(vector<int>& arr)
             if(arr[i-1] > arr[i])
                 return false;
         }
+        
         return true;
     }
 
