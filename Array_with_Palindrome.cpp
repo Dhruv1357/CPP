@@ -39,8 +39,9 @@ bool isPalinArray(vector<int> &arr)
 
     int main()
     {
-        vector<int> v;
         
+        vector<int> v;
+
         int size;
         cin >> size;
         int inp;
