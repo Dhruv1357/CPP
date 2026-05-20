@@ -39,5 +39,6 @@ int main()
         cin >> inp;
         v.push_back(inp);
     }
+    
     pair<int,int> res =  countOddEven(v);
 }
