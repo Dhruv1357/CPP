@@ -20,7 +20,7 @@ void insertAtIndex(vector<int> &arr, int index, int val)
     }
     if (index == arr.size() - 1)
         arr[arr.size() - 1] = val;
-        
+
         cout << "[";
         for(int i=0;i<arr.size();i++)
         {
@@ -41,6 +41,7 @@ int main()
         cin >> inp;
         v.push_back(inp);
     }
+    
     cin >> index >> val;
 
     insertAtIndex(v,index,val);
