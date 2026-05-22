@@ -9,29 +9,30 @@ Summary - Find the minimum value that needs to be added to any one element so th
 #include <vector>
 using namespace std;
 
-int minValueToBalance(vector<int> &arr) {
-        // code here
-        int add;
-        long leftSum = 0,rightSum = 0;
-        
-        for(int i = 0;i<arr.size();i++)
-        {
-            if(i<arr.size()/2)
-                leftSum+=arr[i];
-            else if(i>=arr.size()/2)
-                rightSum+=arr[i];
-        }
-        
-        if(leftSum > rightSum)
-            add = leftSum - rightSum;
-        else
-            add = rightSum - leftSum;
-            
-        return add;
-    }
-    int main()
+int minValueToBalance(vector<int> &arr)
+{
+    // code here
+    int add;
+    long leftSum = 0, rightSum = 0;
+
+    for (int i = 0; i < arr.size(); i++)
     {
-        vector<int> v;
+        if (i < arr.size() / 2)
+            leftSum += arr[i];
+        else if (i >= arr.size() / 2)
+            rightSum += arr[i];
+    }
+
+    if (leftSum > rightSum)
+        add = leftSum - rightSum;
+    else
+        add = rightSum - leftSum;
+
+    return add;
+}
+int main()
+{
+    vector<int> v;
 
     int size;
     cin >> size;
@@ -44,4 +45,4 @@ int minValueToBalance(vector<int> &arr) {
     }
 
     cout << minValueToBalance(v);
-    }
+}
