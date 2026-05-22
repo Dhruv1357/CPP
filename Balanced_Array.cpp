@@ -11,7 +11,7 @@ using namespace std;
 
 int minValueToBalance(vector<int> &arr)
 {
-    // code here
+
     int add;
     long leftSum = 0, rightSum = 0;
 
@@ -32,7 +32,7 @@ int minValueToBalance(vector<int> &arr)
 }
 int main()
 {
-    
+
     vector<int> v;
 
     int size;
