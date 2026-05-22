@@ -32,6 +32,7 @@ int minValueToBalance(vector<int> &arr)
 }
 int main()
 {
+    
     vector<int> v;
 
     int size;
