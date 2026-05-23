@@ -12,6 +12,7 @@ bool armStrongNumber(int n)
         sum = sum + (x * x * x);
         num /= 10;
     }
+    
     if (sum == n)
         return true;
     else
@@ -24,5 +25,5 @@ int main()
     int n;
     cin >> n;
     cout << armStrongNumber(n);
-    
+
 }
