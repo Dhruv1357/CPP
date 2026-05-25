@@ -37,6 +37,7 @@ void insertAtIndex(vector<int> &arr, int index, int val)
             cin >> inp;
             v.push_back(inp);
         }
+        
         int index,val;
 
         cin >> index >> val;
