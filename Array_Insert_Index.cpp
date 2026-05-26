@@ -20,9 +20,11 @@ void insertAtIndex(vector<int> &arr, int index, int val)
             if(i == index)
                 arr[i] = val;
         }
-        
+
         if(index == arr.size() - 1)
+        {
             arr[arr.size() - 1] = val;
+        }
     }
 
     int main()
