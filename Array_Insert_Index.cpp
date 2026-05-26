@@ -11,8 +11,9 @@ using namespace std;
 
 void insertAtIndex(vector<int> &arr, int index, int val) 
     {
-        // code here
+
         arr.push_back(arr[arr.size() - 1]);
+
         for(int i=arr.size() - 2;i>=index;i--)
         {
             if(i > index)
@@ -29,7 +30,7 @@ void insertAtIndex(vector<int> &arr, int index, int val)
 
     int main()
     {
-        
+
         vector<int>v;
         
         int size;
