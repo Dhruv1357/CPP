@@ -18,7 +18,7 @@ void bitManipulation(int num, int i)
 
 int main()
 {
-    int n,i;
+    int n, i;
     cin >> n >> i;
-    bitManipulation(n,i);
+    bitManipulation(n, i);
 }
