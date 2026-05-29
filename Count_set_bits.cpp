@@ -24,5 +24,6 @@ int main()
 {
     int num;
     cin >> num;
+    
     cout << setBits(num);
 }
