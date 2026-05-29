@@ -7,7 +7,8 @@ Summary - Counting the number of bits set in a number
 #include <iostream>
 using namespace std;
 
-    int setBits(int n) {
+    int setBits(int n) 
+    {
 
         int count = 0;
         
@@ -24,6 +25,6 @@ int main()
 {
     int num;
     cin >> num;
-    
+
     cout << setBits(num);
 }
