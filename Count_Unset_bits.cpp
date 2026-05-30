@@ -14,7 +14,9 @@ int countUnsetBits(int n, int l, int r)
     for (int i = l - 1; i < r; i++)
     {
         if (!(n & (1 << i)))
+        {
             count++;
+        }
     }
 
     return count;
