@@ -5,7 +5,6 @@ Platform - GeeksForGeeks
 
 #include <iostream>
 using namespace std;
-
 int setAllRangeBits(int N, int L, int R)
 {
 
