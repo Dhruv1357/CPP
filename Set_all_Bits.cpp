@@ -12,7 +12,6 @@ int setAllRangeBits(int N, int L, int R)
     {
         N = N | (1 << i);
     }
-
     return N;
 }
 
