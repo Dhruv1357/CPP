@@ -31,6 +31,7 @@ int maxConsecutiveOnes(int n)
 int main()
 {
     int num;
+    
     cin >> num;
 
     cout << maxConsecutiveOnes(num);
