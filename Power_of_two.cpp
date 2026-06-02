@@ -28,7 +28,8 @@ bool isPowerofTwo(int n)
 int main()
 {
     int num;
-    cin >> num;
     
+    cin >> num;
+
     cout << isPowerofTwo(num);
 }
