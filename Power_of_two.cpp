@@ -9,7 +9,7 @@ using namespace std;
 
 bool isPowerofTwo(int n)
 {
-    // code here
+
     int count = 0;
 
     if (n == 0)
