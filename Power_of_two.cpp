@@ -23,7 +23,6 @@ bool isPowerofTwo(int n)
 
     return true;
 }
-
 int main()
 {
     int num;
