@@ -21,7 +21,6 @@ bool isPrime(int n)
     }
     else if (n == 1)
         return false;
-
     return true;
 }
 
