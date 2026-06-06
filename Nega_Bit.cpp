@@ -24,7 +24,8 @@ int negaBit(int F, int S)
 int main()
 {
     int num1, num2;
-    cin >> num1, num2;
     
+    cin >> num1, num2;
+
     cout << negaBit(num1, num2);
 }
