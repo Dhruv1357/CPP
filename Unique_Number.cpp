@@ -13,6 +13,5 @@ int findUnique(vector<int> &arr)
     {
         arr[0] = arr[0] ^ arr[i];
     }
-
     return arr[0];
 }
