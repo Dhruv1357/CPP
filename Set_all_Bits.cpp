@@ -5,6 +5,7 @@ Platform - GeeksForGeeks
 
 #include <iostream>
 using namespace std;
+
 int setAllRangeBits(int N, int L, int R)
 {
 
@@ -13,7 +14,7 @@ int setAllRangeBits(int N, int L, int R)
         N = N | (1 << i);
     }
     return N;
-    
+
 }
 
 int main()
