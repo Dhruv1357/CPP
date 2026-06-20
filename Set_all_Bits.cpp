@@ -1,6 +1,7 @@
 /*
 Problem - Set all the bits in a given range
 Platform - GeeksForGeeks
+Summary - Setting all the bits in a given range of the binary representation of a number
 */
 
 #include <iostream>
