@@ -17,7 +17,6 @@ int setAllRangeBits(int N, int L, int R)
     return N;
 
 }
-
 int main()
 {
     int num, left, right;
