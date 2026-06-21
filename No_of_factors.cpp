@@ -14,10 +14,11 @@ int main()
         {
             if ((n % i == 0) && ((i * i) != n))
                 count += 2;
+                
             else if (i * i == n)
                 count++;
         }
-        
+
     }
     
     cout << count;
