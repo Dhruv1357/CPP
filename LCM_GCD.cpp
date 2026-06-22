@@ -9,7 +9,7 @@ Summary - Finding the LCM and GCD of two given numbers
 using namespace std;
 
 vector<int> lcmAndGcd(int a, int b) {
-        // code here
+
         int small,large,gcd = 0,lcm;
         vector<int> v;
         if(a>b)
