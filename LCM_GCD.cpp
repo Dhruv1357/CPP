@@ -35,6 +35,7 @@ vector<int> lcmAndGcd(int a, int b) {
 
         for(int i=1;i<=small;i++)
         {
+            
             if((a%i) ==0 && (b%i) == 0)
             {
                 gcd = i;
