@@ -50,8 +50,9 @@ vector<int> lcmAndGcd(int a, int b) {
     int main()
     {
         int num1,num2;
-        
+
         cin >> num1 >> num2;
+        
         vector<int>v = lcmAndGcd(num1,num2);
 
         cout << v[0] << " " << v[1];
