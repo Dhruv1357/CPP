@@ -12,6 +12,7 @@ vector<int> lcmAndGcd(int a, int b) {
 
         int small,large,gcd = 0,lcm;
         vector<int> v;
+        
         if(a>b)
         {
             large = a;
@@ -52,7 +53,7 @@ vector<int> lcmAndGcd(int a, int b) {
         int num1,num2;
 
         cin >> num1 >> num2;
-        
+
         vector<int>v = lcmAndGcd(num1,num2);
 
         cout << v[0] << " " << v[1];
