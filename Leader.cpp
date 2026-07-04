@@ -25,12 +25,13 @@ int main()
 
     for (int i = arr.size() - 2; i >= 0; i--)
     {
-        
+
         if (arr[i] >= max)
         {
             v.insert(v.begin(), arr[i]);
             max = arr[i];
         }
+        
     }
 
     for(int i=0;i<v.size();i++)
