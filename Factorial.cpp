@@ -23,7 +23,8 @@ int factorial(int n)
 int main()
 {
     int num;
-    
+
     cin >> num;
+    
     cout << factorial(num);
 }
