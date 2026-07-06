@@ -45,5 +45,6 @@ int main()
     }
     
     int res = findEquilibrium(v);
+    
     cout<<res;
 }
