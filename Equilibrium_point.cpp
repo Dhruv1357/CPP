@@ -14,8 +14,9 @@ int findEquilibrium(vector<int> &arr)
     int totalSum = 0, lsum = 0;
 
     for (int i = 0; i < arr.size(); i++)
+    {
         totalSum += arr[i];
-
+    }
     for (int i = 0; i < arr.size(); i++)
     {
         lsum += arr[i];
