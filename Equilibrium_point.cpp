@@ -41,10 +41,11 @@ int main()
     for(int i=0;i<size;i++)
     {
         cin>>push;
+        
         v.push_back(push);
     }
     
     int res = findEquilibrium(v);
-    
+
     cout<<res;
 }
