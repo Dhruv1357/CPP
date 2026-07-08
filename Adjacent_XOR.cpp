@@ -12,6 +12,7 @@ class Solution {
         for(int i=0;i<arr.size();i++)
         {
             int t2 = arr[i];
+            
             if(i == 0)
                 arr[0] = arr[0] ^ arr[1];
             else if(i<arr.size() - 1)
