@@ -15,9 +15,10 @@ class Solution {
 
             if(i == 0)
                 arr[0] = arr[0] ^ arr[1];
-                
+
             else if(i<arr.size() - 1)
                 arr[i] = t1 ^ arr[i+1];
+                
             else
                 arr[arr.size() - 1] = t1 ^ arr[arr.size() - 1];
                 
