@@ -9,6 +9,7 @@ class Solution {
     void replaceElements(vector<int>& arr) 
     {
         int t1 = arr[0];
+        
         for(int i=0;i<arr.size();i++)
         {
             int t2 = arr[i];
@@ -18,7 +19,7 @@ class Solution {
 
             else if(i<arr.size() - 1)
                 arr[i] = t1 ^ arr[i+1];
-                
+
             else
                 arr[arr.size() - 1] = t1 ^ arr[arr.size() - 1];
                 
