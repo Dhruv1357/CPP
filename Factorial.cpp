@@ -25,6 +25,6 @@ int main()
     int num;
 
     cin >> num;
-    
+
     cout << factorial(num);
 }
