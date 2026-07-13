@@ -11,7 +11,6 @@ class Solution {
   public:
     bool checkIsAP(vector<int> &arr) 
     {
-        
         sort(arr.begin(),arr.end());
         int d = arr[1] - arr[0];
         for(int i =1;i<arr.size();i++)
