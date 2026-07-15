@@ -9,6 +9,7 @@ using namespace std;
 
 class Solution {
   public:
+  
     bool checkIsAP(vector<int> &arr) 
     {
         sort(arr.begin(),arr.end());
