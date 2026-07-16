@@ -5,6 +5,7 @@ Summary - Check if the given array is in Arithmetic Progression or not
 */
 
 #include <iostream>
+
 using namespace std;
 
 class Solution 
