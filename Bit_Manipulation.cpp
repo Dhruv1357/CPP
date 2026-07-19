@@ -10,7 +10,6 @@ using namespace std;
 void bitManipulation(int num, int i)
 {
     bool get = num & (1 << (i - 1));
-    
     int set = num | (1 << (i - 1)), clear = num & ~(1 << (i - 1));
     cout << get << " " << set << " " << clear;
 }
