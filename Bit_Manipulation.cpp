@@ -6,7 +6,6 @@ Summary - Doing some bit operations on bit
 
 #include <iostream>
 using namespace std;
-
 void bitManipulation(int num, int i)
 {
     bool get = num & (1 << (i - 1));
