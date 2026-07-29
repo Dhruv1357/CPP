@@ -9,6 +9,7 @@ using namespace std;
 
 class Solution {
   public:
+  
     int findDiff(vector<int>& arr) {
 
         unordered_map<int, int>um;
