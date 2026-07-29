@@ -9,7 +9,7 @@ using namespace std;
 
 class Solution {
   public:
-  
+
     int findDiff(vector<int>& arr) {
 
         unordered_map<int, int>um;
@@ -25,7 +25,6 @@ class Solution {
             if(um[arr[i]] < min)
                 min = um[arr[i]];
         }
-        
         return max - min;
     }
 };
