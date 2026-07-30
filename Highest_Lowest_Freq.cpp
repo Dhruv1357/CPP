@@ -22,10 +22,11 @@ class Solution {
         {
             if(um[arr[i]] > max)
                 max = um[arr[i]];
-                
+
             if(um[arr[i]] < min)
                 min = um[arr[i]];
         }
+        
         return max - min;
     }
 };
