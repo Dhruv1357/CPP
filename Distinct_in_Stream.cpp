@@ -24,6 +24,7 @@ class Solution {
             }
             v.push_back(um.size());
         }
+        
         return v;
     }
 };
