@@ -18,11 +18,12 @@ class Solution {
             {
                 um[arr[i]*(-1)]--;
             }
+            
             else if(arr[i] < 0 && um[arr[i]*(-1)] <= 1)
             {
                 um.erase(arr[i] * (-1));
             }
-            
+
             v.push_back(um.size());
         }
         
