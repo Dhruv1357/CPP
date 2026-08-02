@@ -22,6 +22,7 @@ class Solution {
             {
                 um.erase(arr[i] * (-1));
             }
+            
             v.push_back(um.size());
         }
         
