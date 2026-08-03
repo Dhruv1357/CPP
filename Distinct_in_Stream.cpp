@@ -4,7 +4,7 @@ using namespace std;
 class Solution {
   public:
     vector<int> getDistinct(vector<int> &arr) {
-        // code here
+
         unordered_map<int,int>um;
         vector<int>v;
         
@@ -14,7 +14,7 @@ class Solution {
             {
                 um[arr[i]]++;
             }
-            
+
             else if(arr[i] < 0 && um[arr[i]*(-1)] > 1)
             {
                 um[arr[i]*(-1)]--;
