@@ -14,6 +14,7 @@ class Solution {
             if(arr[i] == num2 && n2 <= i)
                 n2 = i;
         }
+        
         if(n2 > n1)
             count = n2 - n1 - 1;
         else
