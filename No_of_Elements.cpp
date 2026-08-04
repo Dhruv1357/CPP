@@ -4,7 +4,7 @@ class Solution {
   public:
     int getCount(vector<int> &arr, int num1, int num2) 
     {
-        // Your code goes here.
+
         int count = 0,n1 = arr.size(),n2 = 0;
         
         for(int i=0;i<arr.size();i++)
