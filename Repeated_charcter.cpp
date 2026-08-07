@@ -5,7 +5,7 @@ class Solution {
   public:
     char firstRep(string s) 
     {
-        // code here.
+
         unordered_map<char,int>um;
         
         for(int i=0;i<s.size();i++)
