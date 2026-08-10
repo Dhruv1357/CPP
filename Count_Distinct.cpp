@@ -11,5 +11,6 @@ int distinct(vector<int>& arr)
         if(arr[i] != arr[i-1])
             count++;
     }
+    
     return count;
 }
