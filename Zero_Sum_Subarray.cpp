@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 class Solution {
   public:
     // Function to check whether there is a subarray present with 0-sum or not.
