@@ -1,6 +1,5 @@
 class Solution {
   public:
-    // Complete this function
     // Function to check whether there is a subarray present with 0-sum or not.
     bool subArrayExists(vector<int>& arr) 
     {
