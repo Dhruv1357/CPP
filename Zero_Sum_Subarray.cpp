@@ -6,7 +6,7 @@ class Solution {
 
     bool subArrayExists(vector<int>& arr) 
     {
-        // Your code here
+
         unordered_map<int,int>um;
         um[arr[0]]++;
         if(arr[0] == 0)
