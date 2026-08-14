@@ -3,7 +3,7 @@ using namespace std;
 
 class Solution {
   public:
-    // Function to check whether there is a subarray present with 0-sum or not.
+
     bool subArrayExists(vector<int>& arr) 
     {
         // Your code here
