@@ -1,8 +1,9 @@
+#include <iostream>
+using namespace std;
 class Solution {
   public:
     int countPairs(vector<int> &arr, int target) 
     {
-        // Code here
         unordered_map<int,int>um;
         int count=0;
         
