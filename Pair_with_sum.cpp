@@ -10,12 +10,13 @@ class Solution {
         
         for(int i=0;i<arr.size();i++)
         {
-            
+
             if(um.find(target - arr[i]) != um.end())
             {
                 count+=um[target - arr[i]];
                 um[arr[i]]++;
             }
+            
             else
                 um[arr[i]]++;
         }
