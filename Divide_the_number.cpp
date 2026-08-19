@@ -9,7 +9,7 @@ using namespace std;
 
 int countWays(int N) 
 {
-    // code here
+
     int count = 0;
     
     for(int i=1;i<N;i++)
