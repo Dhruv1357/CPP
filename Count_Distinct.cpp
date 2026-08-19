@@ -3,6 +3,7 @@ using namespace std;
 
 int distinct(vector<int>& arr) 
 {
+    
     sort(arr.begin(),arr.end());
     int count = 1;
     
