@@ -14,7 +14,7 @@ int countWays(int N)
     
     for(int i=1;i<N;i++)
     {
-        
+
         if((i+i+i+i) > N)
         break;
         for(int j=i;j<N;j++)
@@ -35,6 +35,7 @@ int countWays(int N)
             }
         }
     }
+    
     return count;
 }
 int main()
