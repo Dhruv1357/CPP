@@ -29,6 +29,7 @@ int countWays(int N)
                 {
                     if((i+j+k+l) > N)
                     break;
+                    
                     if((i+j+k+l) == N)
                     count++;
                 }
