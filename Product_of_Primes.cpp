@@ -2,7 +2,7 @@ class Solution {
   public:
     int primeProduct(int L, int R) 
     {
-        // code here
+
         int flag,m = 1000000007,res;
         long long product = 1;
         for(int i=L;i<=R;i++)
