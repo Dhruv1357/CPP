@@ -19,8 +19,9 @@ class Solution {
             if(flag)
                 product = ((product%m)*(i%m))%m;
         }
-        
+
         res = product%m;
+        
         return res;
     }
 };
