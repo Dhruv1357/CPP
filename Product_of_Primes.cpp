@@ -4,6 +4,7 @@ class Solution {
     {
 
         int flag,m = 1000000007,res;
+        
         long long product = 1;
         for(int i=L;i<=R;i++)
         {
@@ -21,7 +22,7 @@ class Solution {
         }
 
         res = product%m;
-        
+
         return res;
     }
 };
