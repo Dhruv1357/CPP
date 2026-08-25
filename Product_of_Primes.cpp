@@ -4,8 +4,9 @@ class Solution {
     {
 
         int flag,m = 1000000007,res;
-        
+
         long long product = 1;
+        
         for(int i=L;i<=R;i++)
         {
             flag = 1;
