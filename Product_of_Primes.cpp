@@ -18,6 +18,7 @@ class Solution {
                     break;
                 }
             }
+            
             if(flag)
                 product = ((product%m)*(i%m))%m;
         }
