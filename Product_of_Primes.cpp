@@ -10,6 +10,7 @@ class Solution {
         for(int i=L;i<=R;i++)
         {
             flag = 1;
+            
             for(int j=2;j*j<=i;j++)
             {
                 if(i%j == 0)
@@ -18,7 +19,7 @@ class Solution {
                     break;
                 }
             }
-            
+
             if(flag)
                 product = ((product%m)*(i%m))%m;
         }
