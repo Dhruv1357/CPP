@@ -3,7 +3,6 @@ using namespace std;
 
 class Solution {
   public:
-
     long long int product(vector<int> &arr) 
     {
 
