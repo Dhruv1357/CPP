@@ -13,6 +13,7 @@ class Solution
         {
             v[arr[i] - 1]++;
         }
+        
         return v;
     }
 };
