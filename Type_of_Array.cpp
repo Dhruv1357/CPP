@@ -4,6 +4,7 @@ using namespace std;
 class Solution 
 {
   public:
+  
     int typeOfArr(vector<int>& arr) 
     {
         int aCount = 0,dCount = 0;
