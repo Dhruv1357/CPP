@@ -6,7 +6,6 @@ class Solution
   public:
     int typeOfArr(vector<int>& arr) 
     {
-        // code here.
         int aCount = 0,dCount = 0;
         
         for(int i = 1;i<arr.size();i++)
