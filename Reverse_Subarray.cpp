@@ -1,4 +1,5 @@
-// User function template for C++
+#include <iostream>
+using namespace std;
 class Solution {
   public:
     vector<int> reverseSubArray(vector<int> &arr, int l, int r) 
