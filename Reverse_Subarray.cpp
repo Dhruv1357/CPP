@@ -3,7 +3,7 @@ class Solution {
   public:
     vector<int> reverseSubArray(vector<int> &arr, int l, int r) 
     {
-        // code here
+
         int temp,x = 1;
         
         for(int i=l;i<=(r+l)/2;i++)
