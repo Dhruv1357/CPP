@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-class Solution {
+class Solution 
+{
   public:
     vector<int> reverseSubArray(vector<int> &arr, int l, int r) 
     {
@@ -14,7 +15,7 @@ class Solution {
             arr[r-x] = temp;
             x++;
         }
-        
+
         return arr;
     }
 };
