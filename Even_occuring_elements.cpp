@@ -1,8 +1,9 @@
-class Solution {
+class Solution 
+{
   public:
     vector<int> findEvenOccurrences(vector<int>& arr) 
     {
-        // code here
+
         unordered_map<int,int>um;
         vector<int>v;
         
