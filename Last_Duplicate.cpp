@@ -1,8 +1,9 @@
-class Solution {
+class Solution 
+{
   public:
     vector<int> dupLastIndex(vector<int>& arr) 
     {
-        // code here
+
         unordered_map<int,int>um;
         vector<int>v;
         
