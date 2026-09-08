@@ -1,22 +1,24 @@
 {
-  "totalSolved": 1,
+  "totalSolved": 2,
   "currentStreak": 1,
   "maxStreak": 1,
   "lastSyncDate": "2026-09-08",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
-    "easy": 1,
+    "easy": 2,
     "medium": 0,
     "hard": 0,
     "basic": 0
   },
   "syncedProblems": {
-    "LeetCode_Remove_Outermost_Parentheses": true
+    "LeetCode_Remove_Outermost_Parentheses": true,
+    "LeetCode_Make_The_String_Great": true
   },
   "activityHistory": {
-    "2026-09-08": 1
+    "2026-09-08": 2
   },
   "todayProblems": [
-    "Remove Outermost Parentheses"
+    "Remove Outermost Parentheses",
+    "Make The String Great"
   ]
 }
