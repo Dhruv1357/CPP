@@ -5,3 +5,4 @@
 | 3 | [Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder/) | LeetCode | Easy | 10 Sept 2026 | 10:51 am |
 | 4 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | LeetCode | Medium | 10 Sept 2026 | 12:03 pm |
 | 5 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | LeetCode | Medium | 10 Sept 2026 | 12:25 pm |
+| 6 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | LeetCode | Medium | 10 Sept 2026 | 02:19 pm |
