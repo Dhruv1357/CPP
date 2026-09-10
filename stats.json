@@ -1,27 +1,29 @@
 {
-  "totalSolved": 3,
+  "totalSolved": 4,
   "currentStreak": 1,
   "maxStreak": 1,
   "lastSyncDate": "2026-09-10",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 3,
-    "medium": 0,
+    "medium": 1,
     "hard": 0,
     "basic": 0
   },
   "syncedProblems": {
     "LeetCode_Remove_Outermost_Parentheses": true,
     "LeetCode_Make_The_String_Great": true,
-    "LeetCode_Crawler_Log_Folder": true
+    "LeetCode_Crawler_Log_Folder": true,
+    "LeetCode_Remove_All_Adjacent_Duplicates_in_String_II": true
   },
   "activityHistory": {
     "2026-09-08": 2,
-    "2026-09-10": 1
+    "2026-09-10": 2
   },
   "todayProblems": [
     "Remove Outermost Parentheses",
     "Make The String Great",
-    "Crawler Log Folder"
+    "Crawler Log Folder",
+    "Remove All Adjacent Duplicates in String II"
   ]
 }
